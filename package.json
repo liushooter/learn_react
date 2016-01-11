@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/shooterman/learn_react/issues"
   },
-  "homepage": "https://github.com/shooterman/learn_react"
+  "homepage": "https://github.com/shooterman/learn_react",
+  "dependencies": {
+    "browser-sync": "~2.11.0"
+  }
 }
