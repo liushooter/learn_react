@@ -1,0 +1,22 @@
+{
+  "name": "learn_react",
+  "version": "0.0.1",
+  "description": "learn_react",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shooterman/learn_react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "shooter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shooterman/learn_react/issues"
+  },
+  "homepage": "https://github.com/shooterman/learn_react"
+}
