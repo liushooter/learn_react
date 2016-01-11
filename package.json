@@ -1,6 +1,9 @@
 {
   "name": "learn_react",
   "version": "0.0.1",
+  "engines": {
+    "node": "5.0.0"
+  },
   "description": "learn_react",
   "main": "server",
   "scripts": {
@@ -20,6 +23,13 @@
   },
   "homepage": "https://github.com/shooterman/learn_react",
   "dependencies": {
-    "browser-sync": "~2.11.0"
+    "browser-sync": "~2.11.0",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "~6.2.3",
+    "es6-promise": "~3.0.2",
+    "postcss-cli": "~2.3.3",
+    "postcss-import": "^7.1.3"
   }
 }
