@@ -1,0 +1,67 @@
+body {
+  font-family: "Avenir Next", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 100;
+  background-color: #1F1E34;
+  color: #FFF;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 100;
+}
+
+p {
+  font-size: 24px;
+}
+
+a {
+  font-weight: 400;
+  color: #FFF;
+}
+
+a:hover {
+  font-weight: 400;
+  color: #DADADA;
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #FFF;
+  display: flex;
+}
+
+.theme {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme .nav a {
+  margin-right: 10px;
+}
+
+.iphone-demo {
+  background-color: rgba(255,0,0,0.3);
+  align-self: stretch;
+  flex-grow: 1;   /* 按照比例瓜分空间 */
+  flex-basis:0;  /* 预留空间大小 */
+}
+
+.feature-desc {
+  background-color: rgba(0,255,0,0.3);
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis:0;
+}
+
+.android-area {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
