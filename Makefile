@@ -3,11 +3,11 @@
 .PHONY: css
 css:
 > mkdir -p bundle
-> postcss --watch --use autoprefixer --use postcss-import css/app.css --output bundle/app.css
+> postcss --watch --use autoprefixer --use postcss-import css/*.css --dir bundle/
 
 .PHONY: server
 server:
-> browser-sync start --server --files='public/index.html,bundle/app.css'
+> browser-sync start --server --files='public/*.html,bundle/*.css'
 
 .PHONY: clean
 clean:
