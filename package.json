@@ -24,7 +24,8 @@
   "homepage": "https://github.com/shooterman/learn_react",
   "dependencies": {
     "browser-sync": "~2.11.0",
-    "normalize.css": "^3.0.3"
+    "normalize.css": "^3.0.3",
+    "gsap": "~1.18.2"
   },
   "devDependencies": {
     "autoprefixer": "~6.2.3",
